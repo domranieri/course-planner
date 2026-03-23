@@ -26,8 +26,7 @@ static std::string trim(const std::string& str) {
 }
 
 // loadDataStructure
-//   Reads a CSV file where each line is:
-//     CourseNumber,CourseTitle[,Prereq1,Prereq2,...]
+// Reads a CSV file where each line is: CourseNumber,CourseTitle[,Prereq1,Prereq2,...]
 
 static void loadDataStructure(const std::string& fileName, BinarySearchTree& bst) {
 
@@ -86,7 +85,7 @@ static void loadDataStructure(const std::string& fileName, BinarySearchTree& bst
 }
 
 // printCourse
-//   Prompts for a course number and prints its details if found
+// Prompts for a course number and prints its details if found
 
 static void printCourse(const BinarySearchTree& bst) {
 
